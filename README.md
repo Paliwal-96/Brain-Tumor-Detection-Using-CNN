@@ -33,7 +33,7 @@ network.
 
 ### Our proposed block diagram for automated binary and multiclass brain tumor detection is shown in the above diagram. The architecture starts with image extraction and loading labels from the dataset. The extracted images then need to be preprocessed before splitting them into training, validation, and test set. Finally, our proposed CNN  architectures are applied to the employed datasets.
 
-Understanding the architecture:
+#### Understanding the architecture:
 
 Each input x (image) has a shape of (240, 240, 3) and is fed into the neural network. And, it goes through the following layers:
 
@@ -45,8 +45,24 @@ Each input x (image) has a shape of (240, 240, 3) and is fed into the neural net
 6.	A Max Pooling layer with f=4 and s=4, same as before.
 7.	A flatten layer in order to flatten the 3-dimensional matrix into a one-dimensional vector.
 8.	A Dense (output unit) fully connected layer with one neuron with a sigmoid activation (since this is a binary classification task).
-Why this architecture?
-Firstly, I applied transfer learning using a ResNet50 and vgg-16, but these models were too complex to the data size and were overfitting. Of course, you may get good results applying transfer learning with these models using data augmentation. But, I'm using training on a computer with 10th generation Intel i7 CPU and 16 GB memory. So, I had to take into consideration computational complexity and memory limitations.
+   
+#### Why this architecture?
+
+Firstly, We applied transfer learning using a ResNet50 and vgg-16, but these models were too complex to the data size and were overfitting. Of course, you may get good results applying transfer learning with these models using data augmentation. But, We are using training on a computer with 10th generation Intel i7 CPU and 16 GB memory. So, We had to take into consideration computational complexity and memory limitations.
 So why not try a simpler architecture and train it from scratch. And it worked :)
 
+## Conclusion:
+
+The main objective of the current study was to develop deep learning network namely a CNN model to classify MRI images into two classes of brain tumors one as malignant tumor and other one class of healthy brain with no tumor. The applied image dataset was publicly available at Kaggle and was contrast-enhanced magnetic resonance imaging (MRI) images.
+
+
+The proposed CNN model reached the accuracy of following on different samples of datasets, which is as follows:
+
+Accuracy of the best model on the testing data:
+
+Test Loss = 0.39058661460876465
+
+Test Accuracy = 0.9032257795333862
+
+The results of this study demonstrate that our proposed networks have an immeasurable generalization and high execution speed; therefore, they can be applied as effective decision-support agents for radiologists in medical diagnostics.
 
