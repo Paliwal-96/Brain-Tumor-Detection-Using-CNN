@@ -64,5 +64,5 @@ Test Loss = 0.39058661460876465
 
 Test Accuracy = 0.9032257795333862
 
-The results of this study demonstrate that our proposed networks have an immeasurable generalization and high execution speed; therefore, they can be applied as effective decision-support agents for radiologists in medical diagnostics.
+The results of this study demonstrate that our proposed network have an immeasurable generalization and high execution speed; therefore, they can be applied as effective decision-support agents for radiologists in medical diagnostics.
 
