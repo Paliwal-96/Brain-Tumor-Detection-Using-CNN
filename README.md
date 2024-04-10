@@ -27,7 +27,8 @@ network.
 
 ## The Proposed architecture for the whole model is below:
 
-![image](https://github.com/Paliwal-96/Brain-Tumor-Detection-Using-CNN/assets/100425990/c6d6406a-b840-452f-9b1d-1c413778c648)
+![1](https://github.com/Paliwal-96/Brain-Tumor-Detection-Using-CNN/assets/100425990/090f0b1f-b342-4e40-96ab-7b2f0ab5a9f5)
+
 
 
 ### Our proposed block diagram for automated binary and multiclass brain tumor detection is shown in the above diagram. The architecture starts with image extraction and loading labels from the dataset. The extracted images then need to be preprocessed before splitting them into training, validation, and test set. Finally, our proposed CNN  architectures are applied to the employed datasets.
