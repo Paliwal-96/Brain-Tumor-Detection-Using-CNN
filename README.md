@@ -1,29 +1,13 @@
-# Published Research Paper based on the findings from our model:   
+# Published Research Paper :   
 
 https://ieeexplore.ieee.org/document/10486347
 
 
 ## ABSTRACT
 
-Diagnosing a brain tumor takes a long time and relies heavily on the radiologist’s 
-abilities and experience. The amount of data that must be handled has increased 
-dramatically as the number of patients has increased, making old procedures both 
-costly and ineffective. Recently, digital medical images have been essential for 
-detecting numerous illnesses. It is additionally used for training and research. The 
-need for electronic medical images is growing dramatically. The old method of 
-manually evaluating medical imaging is time-consuming, inaccurate, and prone to 
-human error. Over the medical diseases, the brain tumor has become a serious 
-issue, ranking 4th among the major causes of death in India. Many researchers 
-investigated a variety of algorithms for detecting and classifying brain tumors that 
-were both accurate and fast. Deep Learning (DL) approaches have recently been 
-popular in developing automated systems capable of accurately diagnosing or 
-segmenting brain tumors in less time. DL enables a pre-trained Convolutional 
-Neural Network (CNN) model for medical images, specifically for classifying 
-brain cancers. The proposed Brain Tumor Classification Model based on CNN 
-(BCM-CNN) is a CNN hyperparameters optimization. There are primarily two 
-types of hyperparameters: (i) hyperparameters that determine the underlying 
-network structure; (ii) a hyperparameter that is responsible for training the 
-network. 
+Diagnosing a brain tumor takes a long time and relies heavily on the radiologist’s abilities and experience. The amount of data that must be handled has increased dramatically as the number of patients has increased, making old procedures both costly and ineffective. Recently, digital medical images have been essential for detecting numerous illnesses. It is additionally used for training and research. The 
+need for electronic medical images is growing dramatically. The old method of manually evaluating medical imaging is time-consuming, inaccurate, and prone to human error. Over the medical diseases, the brain tumor has become a serious issue, ranking 4th among the major causes of death in India. Many researchers investigated a variety of algorithms for detecting and classifying brain tumors that were both accurate and fast. Deep Learning (DL) approaches have recently been popular in developing automated systems capable of accurately diagnosing or segmenting brain tumors in less time. DL enables a pre-trained Convolutional 
+Neural Network (CNN) model for medical images, specifically for classifying brain cancers. The proposed Brain Tumor Classification Model based on CNN (BCM-CNN) is a CNN hyperparameters optimization. There are primarily two types of hyperparameters: (i) hyperparameters that determine the underlying network structure; (ii) a hyperparameter that is responsible for training the network. 
 
 ## The Proposed architecture for the whole model is below:
 
