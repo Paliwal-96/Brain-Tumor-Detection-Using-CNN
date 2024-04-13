@@ -15,25 +15,25 @@ Neural Network (CNN) model for medical images, specifically for classifying brai
 
 
 
-### Our proposed block diagram for automated binary and multiclass brain tumor detection is shown in the above diagram. The architecture starts with image extraction and loading labels from the dataset. The extracted images then need to be preprocessed before splitting them into training, validation, and test set. Finally, our proposed CNN  architectures are applied to the employed datasets.
+### Our proposed block diagram for automated binary and multiclass brain tumor detection is shown in the above diagram. The architecture starts with image extraction and loading labels from the dataset. The extracted images then need to be preprocessed before splitting them into training, validation, and test set. Finally, our proposed CNN architecture is applied to the dataset being processed.
 
-#### Understanding the architecture:
+#### About the Architecture Employed:
 
-Each input x (image) has a shape of (240, 240, 3) and is fed into the neural network. And, it goes through the following layers:
+Each input x (image) has a shape of (240, 240, 3) and is given as input into the neural network. And, it is processed through the following layers:
 
-1.	A Zero Padding layer with a pool size of (2, 2).
-2.	A convolutional layer with 32 filters, with a filter size of (7, 7) and a stride equal to 1.
-3.	A batch normalization layer to normalize pixel values to speed up computation.
+1.	A Zero Padding layer having a pool size of (2, 2).
+2.	A convolutional layer having 32 filters, with a filter size of (7, 7) and a stride equal to 1.
+3.	A batch normalization layer to normalize pixel values to enhance computation.
 4.	A ReLU activation layer.
-5.	A Max Pooling layer with f=4 and s=4.
-6.	A Max Pooling layer with f=4 and s=4, same as before.
-7.	A flatten layer in order to flatten the 3-dimensional matrix into a one-dimensional vector.
-8.	A Dense (output unit) fully connected layer with one neuron with a sigmoid activation (since this is a binary classification task).
+5.	A Max Pooling layer having f=4 and s=4.
+6.	A Max Pooling layer having f=4 and s=4, same as earlier.
+7.	A flattening layer to flatten the 3-dimensional matrix into a one-dimensional vector.
+8.	A Dense (output unit) fully connected layer having one neuron having a sigmoid activation (because, it being a binary classification job).
    
-#### Why this architecture?
+#### Reason behind the use of this architecture !
 
-Firstly, We applied transfer learning using a ResNet50 and vgg-16, but these models were too complex to the data size and were overfitting. Of course, you may get good results applying transfer learning with these models using data augmentation. But, We are using training on a computer with 10th generation Intel i7 CPU and 16 GB memory. So, We had to take into consideration computational complexity and memory limitations.
-So why not try a simpler architecture and train it from scratch. And it worked :)
+Initially, we attempted transfer learning using ResNet50 and VGG-16 models. However, due to the complexity of these models relative to our dataset size, overfitting became a significant issue. While data augmentation could potentially mitigate this problem, our computational resources were constrained by a 10th generation Intel i5 CPU and 8 GB RAM. Therefore, we opted to explore simpler architectures and train them from scratch. Surprisingly, this approach proved successful, demonstrating the effectiveness of matching model complexity to available computational resources.
+
 
 ## Conclusion:
 
@@ -50,3 +50,4 @@ Test Accuracy = 0.9032257795333862
 
 The results of this study demonstrate that our proposed network have an immeasurable generalization and high execution speed; therefore, they can be applied as effective decision-support agents for radiologists in medical diagnostics.
 
+#### Thank You !!! :)
